@@ -78817,7 +78817,7 @@ L(a){return A.ahn(new A.a_i(A.aL(a,null,t.w).w.a.a),B.W,new A.at(this.c,this.d,t
 A.a_i.prototype={
 $3(a,b,c){var s,r=null,q=t.w,p=this.a
 p=A.aL(a,B.D,q).w.a.a>1024?p*0.5:p*0.9
-s=A.aL(a,B.D,q).w.a.a<=500?7:5
+s=A.aL(a,B.D,q).w.a.a<=500?10:5
 if(A.aL(a,B.D,q).w.a.a>1024)q=b+4
 else q=A.aL(a,B.D,q).w.a.a<1080?b:b-2
 return A.f6(r,A.cx("Full App Stack Developer specializing in Flutter, Spring Boot, and NodeJS. I excel in building and optimizing RESTful APIs, managing scalable databases, and delivering seamless, high-performance applications through impactful projects and internships. I bring a dynamic blend of technical prowess and creative problem-solving to the forefront of every endeavor.",s,B.aL,r,A.e5(r,r,B.et,r,r,r,r,r,r,r,r,q,r,r,r,r,r,!0,r,r,r,r,r,r,r,2),r,r),B.u,r,r,r,r,r,r,B.mA,r,r,p)},
