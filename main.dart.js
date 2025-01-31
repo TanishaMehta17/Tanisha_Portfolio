@@ -27087,7 +27087,7 @@ A.ar_.prototype={
 $1(a){var s=A.ee().b
 if(s==null)s=null
 else{s=s.canvasKitBaseUrl
-if(s==null)s=null}return(s==null?"https://www.gstatic.com/flutter-canvaskit/e672b006cb34c921db85b8e2f482ed3144a4574b/":s)+a},
+if(s==null)s=null}return(s==null?"https://www.gstatic.com/flutter-canvaskit/a18df97ca57a249df5d8d68cd0820600223ce262/":s)+a},
 $S:70}
 A.a0v.prototype={
 cP(a){B.c.a9(this.a.a.save())},
