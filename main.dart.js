@@ -80253,7 +80253,7 @@ L(a){var s=A.Kx(2,0.8),r=A.Kx(4,0.8)
 return A.uG(A.abi(new A.nn(s,A.Kx(1,0.8),A.Kx(1,0.8),A.Kx(2,1),r,null),new A.a4e()))}}
 A.a4e.prototype={
 $2(a,b){var s=t.p,r=A.b([],s)
-if(A.aL(a,B.H,t.w).w.a.a<=700)r.push(B.b2)
+if(A.aL(a,B.H,t.w).w.a.a<=900)r.push(B.b2)
 r.push(B.Xy)
 r.push(B.b2)
 return A.b([new A.qO(A.hc(r,B.aX,B.W,B.V),null)],s)},
@@ -80311,7 +80311,7 @@ L(a){var s=A.IU(3,1.5),r=A.IU(4,1.6)
 return A.uG(A.abi(new A.nn(s,A.IU(1,1.8),A.IU(1,1),A.IU(2,1.7),r,null),new A.a11()))}}
 A.a11.prototype={
 $2(a,b){var s=t.p,r=A.b([],s)
-if(A.aL(a,B.H,t.w).w.a.a<=700)r.push(B.b2)
+if(A.aL(a,B.H,t.w).w.a.a<=900)r.push(B.b2)
 r.push(B.Xw)
 r.push(B.b2)
 return A.b([new A.qO(A.hc(r,B.aX,B.W,B.V),null)],s)},
@@ -80471,7 +80471,7 @@ A.Js.prototype={
 L(a){return A.uG(A.abi(new A.xV(A.jU($.h7(),A.axP(),t.tj),null),new A.a1F()))}}
 A.a1F.prototype={
 $2(a,b){var s=t.p,r=A.b([],s)
-if(A.aL(a,B.H,t.w).w.a.a<=700)r.push(B.b2)
+if(A.aL(a,B.H,t.w).w.a.a<=900)r.push(B.b2)
 r.push(B.RA)
 r.push(B.b2)
 return A.b([new A.qO(A.hc(r,B.aX,B.W,B.V),null)],s)},
@@ -80583,7 +80583,7 @@ if(!(A.aL(a,B.H,q).w.a.a>1024))n.push(A.hE(A.b([A.cx(r,r,p.a*0.23),B.zF],o),B.W,
 if(!(A.aL(a,B.H,q).w.a.a>1024))n.push(A.cx(r,p.b*0.1,r))
 n.push(B.PC)
 s=A.aL(a,B.H,q).w
-if(s.a.a<=700)n.push(A.ez(r,r,B.w,B.G,r,r,r,20,r,r,r,r,r))
+if(s.a.a<=900)n.push(A.ez(r,r,B.w,B.G,r,r,r,20,r,r,r,r,r))
 n.push(B.cR)
 n.push(B.PD)
 n.push(B.ys)
@@ -80614,7 +80614,7 @@ A.Ua.prototype={
 L(a){return A.ai3(new A.anM(this),B.Z,new A.au(0,1,t.Y),t.i)}}
 A.anM.prototype={
 $3(a,b,c){var s=null,r=this.a,q=A.b([new A.n3(new A.anH(r),"Home",r.d===0,s)],t.p)
-if(!(A.aL(a,B.H,t.w).w.a.a<=700))q.push(new A.n3(new A.anI(r),"Projects",r.d===1,s))
+if(!(A.aL(a,B.H,t.w).w.a.a<=900))q.push(new A.n3(new A.anI(r),"Projects",r.d===1,s))
 q.push(new A.n3(new A.anJ(r),"Certifications",r.d===2,s))
 q.push(new A.n3(new A.anK(r),"Experience",r.d===3,s))
 q.push(new A.n3(new A.anL(r),"Contacts",r.d===4,s))
@@ -80702,19 +80702,19 @@ A.r1.prototype={
 L(a){var s,r,q,p=null,o=A.a8(a).p2.w
 o.toString
 s=t.w
-if(!(A.aL(a,B.H,s).w.a.a>1024))r=A.aL(a,B.H,s).w.a.a<=700?20:30
+if(!(A.aL(a,B.H,s).w.a.a>1024))r=A.aL(a,B.H,s).w.a.a<=900?20:30
 else r=50
 r=A.cM(this.c+" ",p,p,p,o.nr(B.j,r,B.an),p,p)
 o=A.aL(a,B.H,s).w
 q=this.d
 if(o.a.a>1024){o=A.a8(a).p2.w
 o.toString
-if(!(A.aL(a,B.H,s).w.a.a>1024))s=A.aL(a,B.H,s).w.a.a<=700?20:30
+if(!(A.aL(a,B.H,s).w.a.a>1024))s=A.aL(a,B.H,s).w.a.a<=900?20:30
 else s=50
 s=A.afR(A.cM(q,p,p,p,o.nr(B.j,s,B.an),p,p),new A.ahV())
 o=s}else{o=A.a8(a).p2.w
 o.toString
-if(!(A.aL(a,B.H,s).w.a.a>1024))s=A.aL(a,B.H,s).w.a.a<=700?20:30
+if(!(A.aL(a,B.H,s).w.a.a>1024))s=A.aL(a,B.H,s).w.a.a<=900?20:30
 else s=50
 s=A.cM(q,p,p,p,o.nr(B.j,s,B.an),p,p)
 o=s}return A.hE(A.b([r,o],t.p),B.dj,B.V)}}
@@ -80726,7 +80726,7 @@ L(a){var s=A.N8(3,1.3),r=A.N8(4,1.3),q=A.N8(1,0.8)
 return A.uG(A.abi(new A.nn(s,A.N8(1,1),q,A.N8(2,1.4),r,null),new A.acr()))}}
 A.acr.prototype={
 $2(a,b){var s=t.p,r=A.b([],s)
-if(A.aL(a,B.H,t.w).w.a.a<=700)r.push(B.b2)
+if(A.aL(a,B.H,t.w).w.a.a<=900)r.push(B.b2)
 r.push(B.Xx)
 r.push(B.b2)
 return A.b([new A.qO(A.hc(r,B.aX,B.W,B.V),null)],s)},
