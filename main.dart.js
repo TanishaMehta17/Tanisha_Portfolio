@@ -79376,9 +79376,9 @@ L(a){var s,r,q=A.b([],t.p)
 if(A.aK(a,B.G,t.w).w.a.a<=700)q.push(B.b2)
 q.push(B.Xr)
 q.push(B.b2)
-s=A.Ki(2,1)
-r=A.Ki(4,1)
-q.push(A.p3(new A.nh(s,A.Ki(1,1),A.Ki(1,0.8),A.Ki(2,1),r,null),1))
+s=A.Ki(2,0.8)
+r=A.Ki(4,0.8)
+q.push(A.p3(new A.nh(s,A.Ki(1,0.8),A.Ki(1,0.8),A.Ki(2,1),r,null),1))
 return A.qo(A.h9(q,B.aX,B.X,B.W))}}
 A.Kj.prototype={
 L(a){var s=null,r=A.ej(30),q=A.ej(30),p=this.d,o=t.p
