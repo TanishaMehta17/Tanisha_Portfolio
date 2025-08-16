@@ -80614,7 +80614,7 @@ A.Ua.prototype={
 L(a){return A.ai3(new A.anM(this),B.Z,new A.au(0,1,t.Y),t.i)}}
 A.anM.prototype={
 $3(a,b,c){var s=null,r=this.a,q=A.b([new A.n4(new A.anH(r),"Home",r.d===0,s)],t.p)
-if(A.aL(a,B.G,t.w).w.a.a<=700)q.push(new A.n4(new A.anI(r),"Projects",r.d===1,s))
+if(!(A.aL(a,B.G,t.w).w.a.a<=700))q.push(new A.n4(new A.anI(r),"Projects",r.d===1,s))
 q.push(new A.n4(new A.anJ(r),"Certifications",r.d===2,s))
 q.push(new A.n4(new A.anK(r),"Experience",r.d===3,s))
 q.push(new A.n4(new A.anL(r),"Contacts",r.d===4,s))
